@@ -1,0 +1,94 @@
+.NavBar {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 115px 0 115px;
+    position: absolute;
+    z-index: 100;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.links ul li {
+    margin-right: 20px;
+    height: 45px;
+    width: 80px;
+    border-radius: 12px;
+    align-content: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: grey;
+}
+
+.links ul li:hover {
+    background-color: rgba(234, 234, 234, 0.664);
+}
+
+.links ul li:active {
+    background-color: #0C0C1D;
+}
+
+.accBtn .logInBtn {
+    height: 45px;
+    width: 80px;
+    background-color: transparent;
+    margin-right: 10px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.accBtn .logInBtn:hover {
+    background-color: rgba(234, 234, 234, 0.664);
+}
+
+.accBtn .logInBtn:active {
+    transform: scale(0.9);
+}
+
+.accBtn .caBtn {
+    width: 165px;
+    height: 45px;
+    background-color: #0C0C1D;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: "Ubuntu";
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+.accBtn .caBtn:hover {
+    background-color: rgba(234, 234, 234, 0.664);
+    color: black;
+}
+
+.accBtn .caBtn:active {
+    transform: scale(0.9);
+}
+
+@media (max-width:700px) {
+    .links ul {
+        display: none;
+    }
+
+    .accBtn {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        left: 30px;
+    }
+}

@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F9FB;
+    overflow-x: hidden;
+    font-family: "Ubuntu";
+}
+
+.HomeContainer {
+    height: 100%;
+    position: relative;
+}
+.h-l-cont{
+    height: 125vh;
+}
+.h-l-box {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.h-l-image {
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.h-l-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* ========== text image ============= */
+.h-l-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.h-l-text h1 {
+    width: 700px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.h-l-text p {
+    margin-top: 30px;
+    font-size: 18px;
+    width: 600px;
+    color: rgb(42, 42, 42);
+}
+
+.h-l-Btn {
+    margin-top: 50px;
+}
+
+.h-l-Btn .h-l-gt-btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: transparent;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.h-l-Btn .h-l-gt-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.h-l-Btn .h-l-gt-btn:active {
+    transform: scale(0.9);
+}
+
+
+/* =========== image detail box======= */
+.img-dt-box {
+    width: 90%;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 3px 8px rgba(64, 64, 64, 0.303);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ======== left section======= */
+.l-section {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.l-s-box {
+    margin-right: 200px;
+}
+
+.l-s-box h3 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.l-s-box p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+.r-section .img-dt-r-sp-btn {
+    width: 200px;
+    background-color: #4B73FF;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.r-section .img-dt-r-sp-btn:hover {
+    background-color: #3158e5;
+}
+
+.r-section .img-dt-r-sp-btn:active {
+    transform: scale(0.9);
+}
+@media (max-width:700px) {
+    .h-l-cont{
+        height: 110vh;
+    }
+    .h-l-image{
+        height: 88%;
+        top:54%;
+    }
+    .h-l-text{
+        width: 100%;
+        top: 20%;
+    }
+    .h-l-text h1{
+        width: auto;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .h-l-text p{
+        width: auto;
+        font-size: 15px;
+        padding: 0 30px 0 30px;
+    }
+    .img-dt-box{
+        display: none;
+    }
+}
+.second-pg{
+    height: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.slider{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    animation: slide 40s linear infinite;
+}
+.logos img{
+    width: 150px;
+    margin: 0 25px;
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(-50%)
+    }
+}
+.logos:hover{
+    animation-play-state: paused;
+}
+
+/* =============== secondpage main section======== */
+.s-pg-m-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+}
+.s-pg-lft{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.s-pg-lft h1{
+    font-size: 50px;
+    text-align: left;
+    font-weight: 500;
+}
+.s-pg-lft p{
+    color: grey;
+    text-align: left;
+    line-height: 24px;
+    width: 450px;
+}
+.s-pg-cu-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color:  #0C0C1D;
+    border: 2px solid #0C0C1D;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    cursor: pointer;
+    transition:0.4s ease;
+}
+.s-pg-cu-btn:hover{
+    background-color: transparent;
+    color: #0C0C1D;
+}
+.s-pg-cu-btn:active{
+    transform:scale(0.9)
+}
+.s-pg-rgt{
+    width: 380px;
+    height:480px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.s-pg-rgt img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.s-pg-rgt-sbox{
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    bottom: 25%;
+    left: 52%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(53, 53, 53, 0.57);
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}   
+.s-pg-rgt-sbox h2{
+    font-size: 35px;
+    color: #4B73FF;
+    width: 150px;
+}
+.s-pg-rgt-sbox p{
+    width: 150px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+    color: grey;
+    line-height: 22px;
+}
+@media (max-width:700px) {
+    .HomeContainer{
+        overflow-x: hidden;
+    }    
+    .slider{
+        padding-top: 50px;
+    }
+    .s-pg-m-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-pg-lft{
+        padding-top: 50px;
+        gap: 40px;
+    }
+    .s-pg-lft h1{
+        width: 400px;
+        font-size: 36px;
+        padding: 0 10px;
+        align-self: center;
+    }
+    .s-pg-lft p{
+        font-size: 12px;
+        align-self: center;
+        width: 400px;
+        line-height: 20px;
+        padding: 0 10px ;
+    }
+    .s-pg-cu-btn{
+        align-self: center;
+    }
+    .s-pg-rgt{
+        height: 300px;
+    }
+    .s-pg-rgt-sbox{
+        width: 200;
+        height: 130px;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
