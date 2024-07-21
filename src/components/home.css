@@ -315,15 +315,17 @@ body {
     .s-pg-lft h1{
         width: 400px;
         font-size: 36px;
-        padding: 0 10px;
+        padding: 0 20px;
         align-self: center;
+        text-align: center;
     }
     .s-pg-lft p{
         font-size: 12px;
         align-self: center;
         width: 400px;
         line-height: 20px;
-        padding: 0 10px ;
+        padding: 0 20px ;
+        text-align:center;
     }
     .s-pg-cu-btn{
         align-self: center;
