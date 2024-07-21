@@ -4,6 +4,13 @@ import building1 from './assets/building1.jpg'
 import building3 from './assets/building3.jpg'
 import building5 from './assets/building5.jpg'
 function Home() {
+    const scrolltospg = () => {
+        const secondpg = document.getElementById('second-page')
+        if (secondpg) {
+            secondpg.scrollIntoView({ behavior: 'smooth' })
+        }
+        // the if statement is optional . it is used for better exp to not throw error.it will work without if statement
+    }
     return (
         <div className='HomeContainer'>
             <div className="h-l-cont">
@@ -15,7 +22,7 @@ function Home() {
                         <h1>Investing In Your Future One Home At A Time</h1>
                         <p>We'll help you find the key to your dream home. Experience the joy of homeownership. Let us make your home buying journey simple. </p>
                         <div className="h-l-Btn">
-                            <button className='h-l-gt-btn'>
+                            <button className='h-l-gt-btn' onClick={scrolltospg}>
                                 Get Started
                             </button>
                         </div>
@@ -50,7 +57,7 @@ function Home() {
 
             {/* ============ second page ============ */}
 
-            <div className="second-pg">
+            <div className="second-pg" id='second-page'>
                 <div className="slider">
                     <div className="logos">
                         <img src="https://seeklogo.com/images/K/Keller_Williams-logo-983AD02CED-seeklogo.com.png" />
@@ -100,6 +107,47 @@ function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            {/* ============ third page ================= */}
+            <div className="third-page">
+                <div className="t-pg-ft-cont">
+                    <div className="t-pg-box">
+                        <div className="t-pg-top-box">
+                            <div className="top-sub-box">
+                                <h1>11K+</h1>
+                                <p>Happy Customers with our services</p>
+                            </div>
+
+                            <div className="top-sub-box">
+                                <h1>22K+</h1>
+                                <p>The best property we provide</p>
+                            </div>
+
+                            <div className="top-sub-box">
+                                <h1>520+</h1>
+                                <p>Awesome companies believe in us</p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="t-pg-down-box">
+                            <h1>Where Comfort Meets Convenience</h1>
+                            <p>Look for an agency with a proven track record of succes in buying,
+                                selling, or renting properties. You want an agency that has been
+                                in the industry for a while and has experience
+                            </p>
+                        </div>
+                    </div>
+                    <div className="t-pg-image">
+                        <img src={building3} alt="image" />
+                    </div>
+                </div>
+
+            </div>
+
+            {/* =========== fourth page =========== */}
+            <div className="fourth-page">
+                
             </div>
         </div>
     )

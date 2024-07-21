@@ -25,6 +25,8 @@
     cursor: pointer;
     transition: 0.2s ease;
     color: grey;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .links ul li:hover {
@@ -46,6 +48,8 @@
     font-weight: 500;
     cursor: pointer;
     transition: 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .accBtn .logInBtn:hover {
@@ -67,6 +71,8 @@
     cursor: pointer;
     font-size: 15px;
     transition: 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .accBtn .caBtn:hover {
