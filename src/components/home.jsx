@@ -3,6 +3,7 @@ import './home.css'
 import building1 from './assets/building1.jpg'
 import building3 from './assets/building3.jpg'
 import building5 from './assets/building5.jpg'
+import building7 from './assets/building7.jpg'
 function Home() {
     const scrolltospg = () => {
         const secondpg = document.getElementById('second-page')
@@ -139,7 +140,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="t-pg-image">
-                        <img src={building3} alt="image" />
+                        <img src={building7} alt="image" />
                     </div>
                 </div>
 
@@ -147,7 +148,7 @@ function Home() {
 
             {/* =========== fourth page =========== */}
             <div className="fourth-page">
-                
+
             </div>
         </div>
     )
