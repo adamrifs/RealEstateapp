@@ -51,84 +51,58 @@ export const sliderimages = [
 
 export const propertycard = [
     {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
+        image:"https://images.pexels.com/photos/7031607/pexels-photo-7031607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$62,800,00",
+        name:'Pinewood Estate',
+        location:'Zurich, Switzerland',
+        bed:'4',
+        bath:'5',
+        parking:'2'
+    },
+    {
+        image:"https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$25,000,00",
+        name:'Sunset Villa',
+        location:'California',
+        bed:'4',
+        bath:'4',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$28,500,00",
+        name:'Cedar Ridge',
+        location:'Sydney, Australia',
+        bed:'5',
+        bath:'6',
+        parking:'2'
+    },
+    {
+        image:"https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$15,500,00",
+        name:'Evergreen Manor',
+        location:'Catalonia, Spain',
+        bed:'3',
         bath:'2',
         parking:'1'
     },
     {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
+        image:"https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$80,550,00",
+        name:'Lakeside Haven',
+        location:'Vancouver, Canada',
+        bed:'5',
+        bath:'6',
+        parking:'4'
     },
     {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
+        image:"https://images.pexels.com/photos/87378/pexels-photo-87378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$90,000,00",
+        name:'Serenity House',
+        location:'Tuscany, Italy',
+        bed:'6',
+        bath:'8',
+        parking:'5'
     },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
-    {
-        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        price:"$50,200,00",
-        name:'Luxurious apartment',
-        location:'Dubai,UAE',
-        bed:'2',
-        bath:'2',
-        parking:'1'
-    },
+   
 ]
