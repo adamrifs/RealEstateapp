@@ -8,6 +8,8 @@ import { IoLocationOutline } from "react-icons/io5";
 import { IoBedOutline } from "react-icons/io5";
 import { LuBath } from "react-icons/lu";
 import { IoCarOutline } from "react-icons/io5";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import { FcBusinessman } from "react-icons/fc";
 import { mycontext } from './context'
 
 
@@ -192,6 +194,167 @@ function Home() {
                     <button className='expl-btn'>
                         Explore All Property
                     </button>
+                </div>
+            </div>
+
+            {/* ================== fifth page ============= */}
+            <div className="fifth-page">
+                <div className="ft-hd-box">
+                    <h1>Kind Words From Our Happy Customers</h1>
+                </div>
+                <div className="cust-fb-cont">
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cust-fb-card">
+                        <div className="cust-icon">
+                            <BiSolidQuoteAltLeft />
+                        </div>
+                        <div className="cust-fb-para">
+                            <p>UrbanAbodes made finding my new home easy and enjoyable.
+                                The site is user-friendly, with detailed listings and great photos.
+                                Booking viewings was seamless, and the support team was very responsive. Highly recommend!</p>
+                        </div>
+                        <div className="user-card">
+                            <div className="user-prof">
+                                <FcBusinessman />
+                            </div>
+                            <div className="user-det">
+                                <h2>Adam Rifsal</h2>
+                                <p>CEO,Fornax</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

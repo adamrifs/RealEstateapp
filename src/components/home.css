@@ -705,3 +705,79 @@ hr {
         font-size: 16px;
     }
 }
+/* ============== fifth page ========== */
+.fifth-page{
+    background-color: #FFFFFF;
+    height:100vh;
+}
+.ft-hd-box{
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    align-content: center;
+    padding: 150px 0 50px 0;
+}
+.ft-hd-box h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.cust-fb-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+    overflow: scroll;
+}
+.cust-fb-cont::-webkit-scrollbar{
+    display: none;
+}
+.cust-fb-card{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 20px;
+    flex-shrink: 0;
+
+}
+.cust-icon{
+    text-align: left;
+    padding: 30px 30px 20px 40px;
+}
+.cust-icon svg{
+    color: #4B73FF;
+    width: 50px;
+    height:50px;
+
+}
+.cust-fb-para{
+    padding: 0 30px;
+    text-align: left;
+}
+.cust-fb-para p{
+    color: grey;
+    line-height:24px;
+    font-size: 17px;
+}
+.user-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left:30px ;
+    margin-top: 40px;
+    gap:10px;
+}
+.user-prof svg{
+    width: 80px;
+    height:80px;
+}
+.user-det h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.user-det p{
+    color: grey;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 5px;
+}
