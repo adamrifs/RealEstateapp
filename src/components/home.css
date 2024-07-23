@@ -624,35 +624,41 @@ hr {
     align-items: center;
     /* gap: 20px; */
 }
-.fp-crd-dwn .fp-locat{
+
+.fp-crd-dwn .fp-locat {
     align-self: self-start;
     padding: 15px 40px 10px 25px;
 }
-.fp-locat svg{
+
+.fp-locat svg {
     font-size: 20px;
     vertical-align: middle;
     margin-right: 5px;
 }
-.fp-facilities{
+
+.fp-facilities {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     padding-bottom: 10px;
 }
-.fp-facilities svg{
+
+.fp-facilities svg {
     font-size: 20px;
     vertical-align: middle;
     margin-right: 5px;
 }
-.expl-button{
+
+.expl-button {
     width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.expl-button .expl-btn{
+
+.expl-button .expl-btn {
     width: 230px;
     height: 60px;
     border: 2px solid #0C0C1D;
@@ -661,35 +667,41 @@ hr {
     font-family: 'Ubuntu';
     font-size: 16px;
     border-radius: 14px;
-    transition:0.2s ease;
+    transition: 0.2s ease;
     cursor: pointer;
 }
-.expl-btn:hover{
+
+.expl-btn:hover {
     background-color: transparent;
     color: #0C0C1D;
 }
-.expl-btn:active{
-    transform:scale(0.9);
+
+.expl-btn:active {
+    transform: scale(0.9);
 }
+
 @media (max-width:700px) {
-    .fp-para{
+    .fp-para {
         width: 400px;
         padding: 0 10px;
         text-align: center;
     }
-    .fp-card{
-        width: 350px;
-        height: 450px;
+
+    .fp-card {
+        width: 310px;
+        height: 420px;
     }
-    .fp-crd-dt{
+
+    .fp-crd-dt {
         margin-top: 0;
         gap: 10px;
     }
-    .fp-crd-dt .fp-pr h2{
-        font-size: 25px;
+
+    .fp-crd-dt .fp-pr h2 {
+        font-size: 24px;
     }
-    
-.fp-crd-dt .fp-name p{
-    font-size: 16px;
-}
+
+    .fp-crd-dt .fp-name p {
+        font-size: 16px;
+    }
 }
