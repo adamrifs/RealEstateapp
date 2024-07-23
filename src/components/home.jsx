@@ -4,7 +4,13 @@ import building1 from './assets/building1.jpg'
 import building3 from './assets/building3.jpg'
 import building5 from './assets/building5.jpg'
 import building7 from './assets/building7.jpg'
+import { IoLocationOutline } from "react-icons/io5";
+import { IoBedOutline } from "react-icons/io5";
+import { LuBath } from "react-icons/lu";
+import { IoCarOutline } from "react-icons/io5";
 import { mycontext } from './context'
+
+
 function Home() {
     const { images, setimages, card, setcard } = useContext(mycontext)
 
@@ -163,17 +169,17 @@ function Home() {
                                 <hr />
                                 <div className="fp-crd-dwn">
                                     <div className="fp-locat">
-                                        <p>{data.location}</p>
+                                        <p><IoLocationOutline />{data.location}</p>
                                     </div>
                                     <div className="fp-facilities">
                                         <div className="bed">
-                                            {data.bed} bed
+                                            <IoBedOutline />{data.bed} bed
                                         </div>
                                         <div className="bath">
-                                        {data.bath} bath
+                                            <LuBath />{data.bath} bath
                                         </div>
                                         <div className="parking">
-                                        {data.parking} parking
+                                            <IoCarOutline />  {data.parking} parking
                                         </div>
                                     </div>
                                 </div>
@@ -181,6 +187,11 @@ function Home() {
                         )
                     }
 
+                </div>
+                <div className="expl-button">
+                    <button className='expl-btn'>
+                        Explore All Property
+                    </button>
                 </div>
             </div>
         </div>
