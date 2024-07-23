@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './home.css'
 import building1 from './assets/building1.jpg'
 import building3 from './assets/building3.jpg'
 import building5 from './assets/building5.jpg'
 import building7 from './assets/building7.jpg'
+import { mycontext } from './context'
 function Home() {
+    const { images, setimages, card, setcard } = useContext(mycontext)
+
     const scrolltospg = () => {
         const secondpg = document.getElementById('second-page')
         if (secondpg) {
@@ -61,31 +64,15 @@ function Home() {
             <div className="second-pg" id='second-page'>
                 <div className="slider">
                     <div className="logos">
-                        <img src="https://seeklogo.com/images/K/Keller_Williams-logo-983AD02CED-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/K/keller-williams-luxury-estates-plus-logo-A61CD01BD2-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/B/brookfield-asset-management-logo-C65D97780F-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/S/Simon_Property_Group-logo-A40CB17287-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/W/welltower-logo-BD7BC80FBA-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/E/equity-residential-logo-6E3DB16652-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/P/prologis-logo-984E383B78-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/L/larsen-toubro-l-t-logo-C37B03D531-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/C/Coldwell_Banker_Residential_Brokerage-logo-ED8841B610-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/A/american-tower-logo-3DB92FA0B2-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/B/brasil-sotheby-s-international-realty-logo-CB74F3F75B-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/S/Schlumberger-logo-DCB7757BE2-seeklogo.com.png" />
 
-                        <img src="https://seeklogo.com/images/K/Keller_Williams-logo-983AD02CED-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/K/keller-williams-luxury-estates-plus-logo-A61CD01BD2-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/B/brookfield-asset-management-logo-C65D97780F-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/S/Simon_Property_Group-logo-A40CB17287-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/W/welltower-logo-BD7BC80FBA-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/E/equity-residential-logo-6E3DB16652-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/P/prologis-logo-984E383B78-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/L/larsen-toubro-l-t-logo-C37B03D531-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/C/Coldwell_Banker_Residential_Brokerage-logo-ED8841B610-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/A/american-tower-logo-3DB92FA0B2-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/C/Coldwell_Banker_Residential_Brokerage-logo-ED8841B610-seeklogo.com.png" />
-                        <img src="https://seeklogo.com/images/S/Schlumberger-logo-DCB7757BE2-seeklogo.com.png" />
+                        {images.map(dt =>
+                            <img src={dt.image} />
+                        )}
+
+                        {images.map(stimg =>
+                            <img src={stimg.image} />
+                        )}
+
                     </div>
                 </div>
 
@@ -148,7 +135,53 @@ function Home() {
 
             {/* =========== fourth page =========== */}
             <div className="fourth-page">
+                <div className="fp-hd">
+                    <div className="fp-heads">
+                        <h1>Our Popular Property</h1>
+                    </div>
+                    <div className="fp-para">
+                        <p>Look For An Agency With A Proven Track Record Of Success In Buying,Selling, Or Renting Properties.
+                            You Want An Agency That Has Been In The Industry For A While.
+                        </p>
+                    </div>
+                </div>
+                <div className="fp-card-cont">
+                    {
+                        card.map(data =>
+                            <div className="fp-card">
+                                <div className="fp-img">
+                                    <img src={data.image} />
+                                </div>
+                                <div className="fp-crd-dt">
+                                    <div className="fp-pr">
+                                        <h2>{data.price}</h2>
+                                    </div>
+                                    <div className="fp-name">
+                                        <p>{data.name}</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div className="fp-crd-dwn">
+                                    <div className="fp-locat">
+                                        <p>{data.location}</p>
+                                    </div>
+                                    <div className="fp-facilities">
+                                        <div className="bed">
+                                            {data.bed} bed
+                                        </div>
+                                        <div className="bath">
+                                        {data.bath} bath
+                                        </div>
+                                        <div className="parking">
+                                        {data.parking} parking
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    }
 
+                </div>
             </div>
         </div>
     )

@@ -1,0 +1,134 @@
+export const sliderimages = [
+    {
+        id:1,
+        image:'https://seeklogo.com/images/K/Keller_Williams-logo-983AD02CED-seeklogo.com.png'
+    },
+    {
+        id:2,
+        image:"https://seeklogo.com/images/K/keller-williams-luxury-estates-plus-logo-A61CD01BD2-seeklogo.com.png"
+    },
+    {
+        id:3,
+        image:"https://seeklogo.com/images/B/brookfield-asset-management-logo-C65D97780F-seeklogo.com.png"
+    },
+    {
+        id:4,
+        image:"https://seeklogo.com/images/S/Simon_Property_Group-logo-A40CB17287-seeklogo.com.png"
+    },
+    {
+        id:5,
+        image:"https://seeklogo.com/images/W/welltower-logo-BD7BC80FBA-seeklogo.com.png"
+    },
+    {
+        id:6,
+        image:"https://seeklogo.com/images/E/equity-residential-logo-6E3DB16652-seeklogo.com.png"
+    },
+    {
+        id:7,
+        image:"https://seeklogo.com/images/P/prologis-logo-984E383B78-seeklogo.com.png"
+    },
+    {
+        id:8,
+        image:"https://seeklogo.com/images/L/larsen-toubro-l-t-logo-C37B03D531-seeklogo.com.png"
+    },
+    {
+        id:9,
+        image:"https://seeklogo.com/images/C/Coldwell_Banker_Residential_Brokerage-logo-ED8841B610-seeklogo.com.png"
+    },
+    {
+        id:10,
+        image:"https://seeklogo.com/images/A/american-tower-logo-3DB92FA0B2-seeklogo.com.png"
+    },
+    {
+        id:11,
+        image:"https://seeklogo.com/images/B/brasil-sotheby-s-international-realty-logo-CB74F3F75B-seeklogo.com.png"
+    },
+    {
+        id:12,
+        image:"https://seeklogo.com/images/S/Schlumberger-logo-DCB7757BE2-seeklogo.com.png"
+    }
+]
+
+export const propertycard = [
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+    {
+        image:"https://images.pexels.com/photos/1534411/pexels-photo-1534411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        price:"$50,200,00",
+        name:'Luxurious apartment',
+        location:'Dubai,UAE',
+        bed:'2',
+        bath:'2',
+        parking:'1'
+    },
+]
