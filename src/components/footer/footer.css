@@ -1,0 +1,143 @@
+.footer {
+    background-color: #0C0C1D;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 82%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.486);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-fst-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 45px;
+    width: 380px;
+    height: 230px;
+}
+
+.footer-logo h1 {
+    color: white;
+}
+
+.footer-comnt p {
+    font-size: 17px;
+    width: 250px;
+    text-align: left;
+    color: grey;
+}
+
+.input-field {
+    width: 355px;
+    height: 60px;
+    border: 2px solid rgba(115, 115, 115, 0.403);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.input-field input::placeholder {
+    font-size: 16px;
+    font-family: 'Ubuntu';
+}
+
+.footer-sub-btn {
+    width: 130px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4B73FF;
+    border: none;
+    font-family: "Ubuntu";
+    font-size: 17px;
+    color: white;
+}
+
+.footer-list-box {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-list-box h2 {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+
+.footer-list-box p {
+    text-align: left;
+    color: grey;
+    font-size: 16px;
+}
+
+.footer-frth-box {
+    height: 170px;
+    width: 240px;
+    align-self: self-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-frth-box h2 {
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+}
+
+.footer-frth-box p {
+    color: grey;
+    text-align: left;
+}
+
+.footer-dsgn p {
+    color: white;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+.footer-dsgn p svg {
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+@media (max-width:700px) {
+    .footer{
+        height: auto;
+    }
+    .footer-cont {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .footer-list-box{
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-dsgn p {
+        padding-bottom: 20px;
+    }
+}

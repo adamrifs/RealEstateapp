@@ -5,13 +5,14 @@ import Nav from './components/navbar/nav';
 import { useContext, useState } from 'react';
 import { mycontext } from './components/context';
 import { propertycard, sliderimages } from './components/datafile';
+import Footer from './components/footer/footer';
 
 function App() {
   const [images, setimages] = useState(sliderimages)
-  const [card,setcard] = useState(propertycard)
+  const [card, setcard] = useState(propertycard)
 
   const values = {
-    images, setimages,card,setcard
+    images, setimages, card, setcard
   }
   return (
     <div className="App">
@@ -21,7 +22,9 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='nav' element={<Nav />} />
+            <Route path='footer' element={<Footer />} />
           </Routes>
+          <Footer/>
         </mycontext.Provider>
       </BrowserRouter>
     </div>
